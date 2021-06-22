@@ -7,8 +7,33 @@ body {
 
 input {
     text-align: center;
-    width: 20%;
+    width: 11%;
     cursor: none;
     
 }
 
+@media screen and (max-width: 540px) {
+    body {
+        text-align: center;
+        margin: 10px;
+        padding: 50px;
+    }
+    input {
+        text-align: center;
+        font-size: 18px;
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 284px) {
+    body {
+        text-align: center;
+        margin: 10px;
+        padding: 30px;
+    }
+    input {
+        text-align: center;
+        font-size: 18px;
+        width: 150px;
+    }
+}
